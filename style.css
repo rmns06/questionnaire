@@ -1,0 +1,31 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+.test{
+    max-width: 250px;
+}
+
+.VueCarousel-slide {
+    position: relative;
+    background: #0357311e;
+    color: #fff;
+    font-family: Arial;
+    font-size: 24px;
+    text-align: center;
+    min-height: 200px;
+  }
+.VueCarousel-wrapper, .VueCarousel-pagination{
+    max-width: 800px;
+    margin: auto;
+}
+
+  .label {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
